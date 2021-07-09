@@ -11,9 +11,10 @@ This project searches the unsplash API for photos relating to a search term and 
 
 ## Under the hood: How does this project work?
 
-State is only managed at the App level, where the API call is performed.
-The App renders the ImageList component by passing an images prop (the array of images returned from unsplash)
-The ImageList component renders a grid of individual images by mapping over the images array prop.
+1. State is only managed at the App level, where the API call is performed
+2. The App renders the ImageList component by passing an images prop (the array of images returned from unsplash)
+3. The ImageList component renders a grid of individual images by mapping over the images array prop
+  1. Using CSS grid, the images fit together even if they are not the same aspect ratio or size
 
 ## Current status: What should future me know about where this project left off?
 This project is finished.
